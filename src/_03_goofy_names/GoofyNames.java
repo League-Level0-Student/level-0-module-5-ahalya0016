@@ -23,7 +23,7 @@ for (int i = 0; i < args.length; i++) {
 			// 4. Create a String variable to store the next character of the name
 			//    using .substring(start, end)
 			//    HINT: replace 'start' and 'end' to get String with character at i 
-			string y = x.substring(start,end);
+			//string y = x.substring(start,end);
 			// 5. Use MODULO to set this variable to upper case for EVEN characters
 			//    and lower case for ODD characters.
 
