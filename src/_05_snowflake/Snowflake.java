@@ -5,6 +5,7 @@ package _05_snowflake;
  */
 
 import java.awt.Color;
+import java.awt.Robot;
 
 
 public class Snowflake {

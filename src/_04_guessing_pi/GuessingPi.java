@@ -9,7 +9,6 @@ import javax.swing.JOptionPane;
 public class GuessingPi {
 	// 1. Make a main method and make sure your program can run
 public static void main(String[] args) {
-	
 
 		// 2. Make a String variable to hold the value of Pi.
 		//    Get the first few digits from http://www.piday.org/million/.
@@ -23,23 +22,24 @@ System.out.println(pi.charAt(0));
 
 			// 4. Create a for loop that will step through each digit of pi (steps 5-8)
 			//    NOTE: The number of digits in your string will be
-			//       yourStringVariable.length()
+			//       yourStringVariable.length
 for (int i = 0; i < 11; i++) {
 	
 
 				// 5. Ask the user for the NEXT digit of pi.
 	String y = JOptionPane.showInputDialog("What is the next digit of pi?");
 				// 6. Compare the user's input to the next digit of your pi variable 
-				//    (look at step 3 for a clue).
-				//    HINT: use charAt(0) to get 1st char of user input String 
-
+				//    (look at step 3 for a clue). 
+				//	  HINT: use charT(0) to get 1st char of user input String
+	int x=Integer.parseInt(y);
 					// 7. If they are correct, print out "correct".
-if (String y == pi.charAt(1)) {
-	System.out.println("correct");
+if (int x == pi.charAt(1)) {
+	System.out.println("Correct");
 }
 					// 8. If they are not, print out "incorrect" and tell them
 					//    to start over. Use 'break;' to break out of the loop./else {
 else {	
+System.out.println("Incorrect");
 System.out.println("Start over");
 	break;
 }
