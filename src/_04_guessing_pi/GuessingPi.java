@@ -23,7 +23,7 @@ System.out.println(pi.charAt(0));
 			// 4. Create a for loop that will step through each digit of pi (steps 5-8)
 			//    NOTE: The number of digits in your string will be
 			//       yourStringVariable.length
-for (int i = 0; i < 11; i++) {
+for (int i = 1; i < 11; i++) {
 	
 
 				// 5. Ask the user for the NEXT digit of pi.
@@ -31,9 +31,9 @@ for (int i = 0; i < 11; i++) {
 				// 6. Compare the user's input to the next digit of your pi variable 
 				//    (look at step 3 for a clue). 
 				//	  HINT: use charT(0) to get 1st char of user input String
-	int x=Integer.parseInt(y);
+	
 					// 7. If they are correct, print out "correct".
-if (int x == pi.charAt(1)) {
+if (y.charAt(0) == pi.charAt(i)) {
 	System.out.println("Correct");
 }
 					// 8. If they are not, print out "incorrect" and tell them
