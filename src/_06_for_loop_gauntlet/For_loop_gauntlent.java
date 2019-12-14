@@ -39,8 +39,8 @@ String o = "";
 		o=o + " " + j;
 }
 
-System.out.println(i + "" + o); 
-}
+System.out.println(i + "" + 0);
+	}
 
 
 }
