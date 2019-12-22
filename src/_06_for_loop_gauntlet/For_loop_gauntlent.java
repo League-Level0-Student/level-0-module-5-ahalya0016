@@ -33,14 +33,14 @@ o=o +  " " + j;
 System.out.println(i + " " + o );
 	}*/
 	
-String o = "";
+/*String o = "";
 	for(int i=1; i<7;i+=1) {
 		for(int j = i+1; j<i+2; j++) {
 		o=o + " " + j;
 }
 
 System.out.println(i + "" + 0);
-	}
+	}*/
 
 
 }
